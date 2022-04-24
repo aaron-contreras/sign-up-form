@@ -9,4 +9,4 @@ A simple Sign up form in order to practice the skills learned through the Interm
 - TBD
 
 ## Credits to assets
-- Background image: [Joanna Kosinska](https://unsplash.com/@joannakosinska) at [Unsplash](https://unsplash.com/photos/Uvl3W4XWd4U)
+- Background image: [Joanna Kosinska](h:ttps://unsplash.com/@joannakosinska) at [Unsplash](https://unsplash.com/photos/Uvl3W4XWd4U)
