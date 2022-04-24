@@ -5,8 +5,11 @@ From [The Odin Project](https://www.theodinproject.com/lessons/intermediate-html
 
 A simple Sign up form in order to practice the skills learned through the Intermediate HTML and CSS course work.
 
-## Things improved in this project
-- TBD
+## Things I improved on during this project
+- CSS custom properties
+- HTML semantics
+- Positioning
+- Flexbox
 
 ## Credits to assets
 - Background image: [Joanna Kosinska](h:ttps://unsplash.com/@joannakosinska) at [Unsplash](https://unsplash.com/photos/Uvl3W4XWd4U)
