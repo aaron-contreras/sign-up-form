@@ -10,67 +10,66 @@
   <title>Sign Up Form</title>
 </head>
 <body>
-  <aside>
-    <section>
-      <h1>Logo + Odin</h1>
-    </section>
-    <footer>
-      <span>Photo by <a href="https://unsplash.com/@joannakosinska">Joanna Kosinska</a> on <a href="https://unsplash.com/photos/Uvl3W4XWd4U">Unsplash</a></span>
-    </footer>
-  </aside>
-  <header>
-    <div>
-      <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
-      <p>Sign up <em>now</em> to get started.</p>
-    </div>
-    <div>
-      <p>You <em>know</em> you want to.</p>
-    </div>
-  </header>
-  <main>
-    <section>
-      <h2>Let's do this!</h2>
-      <form action="#" method="#">
-        <div class="form-control">
-          <label for="first_name">First name</label>
-          <input type="text" name="first_name" id="first_name"
-                 placeholder="Aaron">
+  <div class="wrapper">
+    <aside class="aside-container">
+      <section class="aside-content">
+        <img src="./assets/img/odin-logo.png" alt="Odin Logo"
+             class="logo">
+        <h1>Odin</h1>
+      </section>
+      <footer class="aside-footer">
+        <span>Photo by <a href="https://unsplash.com/@joannakosinska">Joanna Kosinska</a> on <a href="https://unsplash.com/photos/Uvl3W4XWd4U">Unsplash</a></span>
+      </footer>
+    </aside>
+    <main class="main-container">
+      <header>
+        <div>
+          <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+          <p>Sign up <em>now</em> to get started.</p>
         </div>
-
-        <div class="form-control">
-          <label for="last_name">Last name</label>
-          <input type="text" name="last_name" id="last_name"
-                 placeholder="Contreras">
+        <div>
+          <p>You <em>know</em> you want to.</p>
         </div>
+      </header>
+      <section>
+        <h2>Let's do this!</h2>
+        <form action="#" method="#">
+          <div class="form-control">
+            <label for="first_name">First name</label>
+            <input type="text" name="first_name" id="first_name"
+                   placeholder="Aaron">
+          </div>
+          <div class="form-control">
+            <label for="last_name">Last name</label>
+            <input type="text" name="last_name" id="last_name"
+                   placeholder="Contreras">
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email"
+                   placeholder="email@example.com">
+          </div>
+          <div class="form-control">
+            <label for="phone_number">Phone number</label>
+            <input type="tel" name="phone_number" id="phone_number"
+                   placeholder="+507 6123 4567">
+          </div>
+          <div class="form-control">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+          </div>
+          <div class="form-control">
+            <label for="password_confirmation">Confirm Password</label>
+            <input type="password" name="password_confirmation" id="password_confirmation">
+          </div>
+          <button type="submit">Create account</button>
+        </form>
+        <span>Already have an account? <a href="#">Log in</a></span>
+      </section>
+    </main>
+  </div>
 
-        <div class="form-control">
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email"
-                 placeholder="email@example.com">
-        </div>
-
-        <div class="form-control">
-          <label for="phone_number">Phone number</label>
-          <input type="tel" name="phone_number" id="phone_number"
-                 placeholder="+507 6123 4567">
-        </div>
-
-        <div class="form-control">
-          <label for="password">Password</label>
-          <input type="password" name="password" id="password">
-        </div>
-
-        <div class="form-control">
-          <label for="password_confirmation">Confirm Password</label>
-          <input type="password" name="password_confirmation" id="password_confirmation">
-        </div>
-
-        <button type="submit">Create account</button>
-      </form>
-
-      <span>Already have an account? <a href="#">Log in</a></span>
-    </section>
-  </main>
+  <!-- JS files -->
   <script src="./js/index.js"></script>
 </body>
 </html>
