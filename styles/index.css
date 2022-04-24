@@ -78,12 +78,12 @@ h1, h2 {
 
 /* Main container */
 .main-container {
+  box-sizing: border-box;
   --horizontal-margin-size: 2em;
   --element-gap: 25px;
   flex: 2;
 
   padding: 2rem 0;
-
   height: 100%;
 
   background-color: #f9fafb;
