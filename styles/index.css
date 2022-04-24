@@ -82,6 +82,8 @@ h1, h2 {
   --element-gap: 25px;
   flex: 2;
 
+  padding: 2rem 0;
+
   height: 100%;
 
   background-color: #f9fafb;
@@ -197,4 +199,23 @@ h1, h2 {
   text-decoration: none;
   color: var(--success-color);
   font-weight: 500;
+}
+
+@media screen and (max-width: 840px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .aside-container {
+    max-height: 200px;
+    flex: 1;
+    justify-content: center;
+  }
+
+  .aside-container .aside-content {
+    margin: 0;
+  }
+  .main-container {
+    flex: 3;
+  }
 }
