@@ -134,12 +134,12 @@ h1, h2 {
   --error-color: #96143d;
   display: flex;
   flex-direction: column;
+  margin-right: 1em;
 }
 
 .form .form-control label {
   letter-spacing: 0.1rem;
   text-transform: uppercase;
-  /* color: #555; */
   
   margin-bottom: 0.2rem;
 }
@@ -203,6 +203,7 @@ h1, h2 {
 
 @media screen and (max-width: 840px) {
   .wrapper {
+    --font-size: 10px;
     flex-direction: column;
   }
 
@@ -217,5 +218,9 @@ h1, h2 {
   }
   .main-container {
     flex: 3;
+  }
+
+  .form-control {
+    font-size: var(--font-size);
   }
 }
