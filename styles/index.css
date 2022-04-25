@@ -219,7 +219,7 @@ h1, h2 {
   .main-container {
     flex: 3;
   }
-  
+
   .form-control {
     font-size: var(--font-size);
   }
